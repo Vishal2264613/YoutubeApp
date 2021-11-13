@@ -16,6 +16,10 @@
 		58A98FF2273F165B00E37528 /* YoutubeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A98FF1273F165B00E37528 /* YoutubeAppTests.swift */; };
 		58A98FFC273F165B00E37528 /* YoutubeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A98FFB273F165B00E37528 /* YoutubeAppUITests.swift */; };
 		58A98FFE273F165B00E37528 /* YoutubeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A98FFD273F165B00E37528 /* YoutubeAppUITestsLaunchTests.swift */; };
+		58A9900B273F3B1400E37528 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A9900A273F3B1400E37528 /* Constants.swift */; };
+		58A9900D273F3CD800E37528 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A9900C273F3CD800E37528 /* Video.swift */; };
+		58A9900F273F3D1A00E37528 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A9900E273F3D1A00E37528 /* Model.swift */; };
+		58A99011273F476D00E37528 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A99010273F476D00E37528 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		58A98FF7273F165B00E37528 /* YoutubeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A98FFB273F165B00E37528 /* YoutubeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeAppUITests.swift; sourceTree = "<group>"; };
 		58A98FFD273F165B00E37528 /* YoutubeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58A9900A273F3B1400E37528 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		58A9900C273F3CD800E37528 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		58A9900E273F3D1A00E37528 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		58A99010273F476D00E37528 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				58A98FE3273F165A00E37528 /* Assets.xcassets */,
 				58A98FE5273F165A00E37528 /* LaunchScreen.storyboard */,
 				58A98FE8273F165A00E37528 /* Info.plist */,
+				58A9900A273F3B1400E37528 /* Constants.swift */,
+				58A9900C273F3CD800E37528 /* Video.swift */,
+				58A9900E273F3D1A00E37528 /* Model.swift */,
+				58A99010273F476D00E37528 /* Response.swift */,
 			);
 			path = YoutubeApp;
 			sourceTree = "<group>";
@@ -261,6 +273,10 @@
 				58A98FDF273F165A00E37528 /* ViewController.swift in Sources */,
 				58A98FDB273F165A00E37528 /* AppDelegate.swift in Sources */,
 				58A98FDD273F165A00E37528 /* SceneDelegate.swift in Sources */,
+				58A9900F273F3D1A00E37528 /* Model.swift in Sources */,
+				58A9900B273F3B1400E37528 /* Constants.swift in Sources */,
+				58A9900D273F3CD800E37528 /* Video.swift in Sources */,
+				58A99011273F476D00E37528 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
