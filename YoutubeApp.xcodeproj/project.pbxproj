@@ -23,6 +23,8 @@
 		58A99013273F4C3800E37528 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A99012273F4C3800E37528 /* ConstantsTemplate.swift */; };
 		58A99015273F5C1900E37528 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A99014273F5C1900E37528 /* VideoTableViewCell.swift */; };
 		58B36C5E274064DB0012F89F /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C5D274064DB0012F89F /* CacheManager.swift */; };
+		58B36C6227406D010012F89F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C6127406D010012F89F /* DetailViewController.swift */; };
+		58B36C65274070DB0012F89F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B36C64274070DB0012F89F /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		58A99012273F4C3800E37528 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		58A99014273F5C1900E37528 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		58B36C5D274064DB0012F89F /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		58B36C6127406D010012F89F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		58B36C64274070DB0012F89F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B36C65274070DB0012F89F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +102,7 @@
 				58A98FF0273F165B00E37528 /* YoutubeAppTests */,
 				58A98FFA273F165B00E37528 /* YoutubeAppUITests */,
 				58A98FD8273F165A00E37528 /* Products */,
+				58B36C63274070DB0012F89F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				58A98FDE273F165A00E37528 /* ViewController.swift */,
+				58B36C6127406D010012F89F /* DetailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -186,6 +193,14 @@
 				58B36C5D274064DB0012F89F /* CacheManager.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		58B36C63274070DB0012F89F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B36C64274070DB0012F89F /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B36C6227406D010012F89F /* DetailViewController.swift in Sources */,
 				58A98FDF273F165A00E37528 /* ViewController.swift in Sources */,
 				58A98FDB273F165A00E37528 /* AppDelegate.swift in Sources */,
 				58A98FDD273F165A00E37528 /* SceneDelegate.swift in Sources */,
